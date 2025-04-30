@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.gstatic.com/s/poppins/v22/pxiEyp8kv8JHgFVrJJfecg.woff2');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.animated-border {
+  width: 65%;
+  text-align: center;
+  animation: borderExpand 2s ease-in-out infinite alternate;
+}
+
+@keyframes borderExpand {
+  0% {
+    width: 65%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 65%;
+  }
+}
+
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.tt-hoves-pro {
+  font-family: 'tt_hoves_pro_var.basic.dd51300d';
+  src: url(../public/tt_hoves_pro_var.basic.dd51300d.ttf) format('truetype');
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.faculty-glyphic {
+  font-family: 'Faculty Glyphic', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+  .engraved {
+    font-size: 100px;
+    font-family: Futura;
+    background-color: rgb(167, 122, 91);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgb(71, 66, 63) 3px 5px 1px;
+  }
