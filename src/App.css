@@ -71,7 +71,7 @@
 }
 .tt-hoves-pro {
   font-family: 'tt_hoves_pro_var.basic.dd51300d';
-  src: url(../public/tt_hoves_pro_var.basic.dd51300d.ttf) format('truetype');
+  src: url(./assets/tt_hoves_pro_var.basic.dd51300d.ttf) format('truetype');
 }
 
 .poppins {
